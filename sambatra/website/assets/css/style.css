@@ -1,0 +1,58 @@
+/* Styles de base */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+/* Styles pour la navigation */
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul {
+	display: flex;
+}
+
+nav li {
+	margin-left: 1rem;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Styles pour le contenu principal */
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 1rem;
+}
+
+section {
+	margin: 1rem 0;
+	border: 1px solid #ccc;
+	padding: 1rem;
+}
+
+section h2 {
+	margin-bottom: 0.5rem;
+}
+
+/* Styles pour le pied de page */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 1rem;
+	text-align: center;
+}
